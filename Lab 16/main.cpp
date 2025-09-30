@@ -2,14 +2,20 @@
 //  main.cpp
 //  Lab 16
 //
-//  Created by Nafi on 9/29/25.
+//  COMSC - 210 | Lab 16 | Mehraj Hasan Nafi
+//IDE Used: Xcode
 //
-//for test 2
+//
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
-int main() {
+class color{
+private:
+    int red;
+    int green;
+    int blue;
     
-    cout << "Hello, World!\n";
-    return 0;
+    
+    
 }
