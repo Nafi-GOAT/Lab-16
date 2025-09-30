@@ -70,4 +70,13 @@ int main(){
     cout<< "Full constructor (Blue): \n";
     c4.print();
     
+    color c5(128);
+    cout << "Partial constructor (Gray):\n";
+    c5.print();
+    
+    color c6(123,45,67);
+    cout <<"Custom color (Mixed):\n";
+    c6.print();
+    
+    return 0;
 }
