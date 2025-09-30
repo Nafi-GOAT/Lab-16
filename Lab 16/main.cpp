@@ -50,3 +50,24 @@ public:
         cout << endl;
     }
 };
+
+int main(){
+    cout << fixed << setprecision(2);
+    
+    color c1;
+    cout << "Default constructor (Black):\n";
+    c1.print();
+    
+    color  c2 (255,0,0);
+    cout << "Full constructor (Red):\n";
+    c2.print();
+    
+    color c3(0,255,0);
+    cout << "Full constructor (Green):\n";
+    c3.print();
+    
+    color c4 (0,0,255);
+    cout<< "Full constructor (Blue): \n";
+    c4.print();
+    
+}
