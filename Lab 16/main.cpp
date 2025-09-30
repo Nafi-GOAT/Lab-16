@@ -16,6 +16,21 @@ private:
     int green;
     int blue;
     
+public:
+    color (){
+        red = 0;
+        green = 0;
+        blue = 0;
+    }
+    color(int r, int g, int b){
+        red = r;
+        green = g;
+        blue = b;
+    }
     
-    
+    color(int shade){
+        red = shade;
+        green = shade;
+        blue = shade;
+    }
 }
