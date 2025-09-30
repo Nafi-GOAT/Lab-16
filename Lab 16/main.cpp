@@ -33,4 +33,13 @@ public:
         green = shade;
         blue = shade;
     }
+    
+    void setRed(int r) { red =r;}
+    int getRed() { return red;}
+    
+    void setBlue(int b) {blue =b;}
+    int getBlue () {return blue;}
+    
+    void setGreen (int g) { green =  g; }
+    int getGreen() { return  green; }
 }
