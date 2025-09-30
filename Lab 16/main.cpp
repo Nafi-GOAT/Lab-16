@@ -42,4 +42,11 @@ public:
     
     void setGreen (int g) { green =  g; }
     int getGreen() { return  green; }
-}
+    
+    void print () {
+        cout << setw(15) << "Red: " << red << endl;
+        cout << setw(15) << "Blue: " << blue << endl;
+        cout << setw(15) << "Green: " << green << endl;
+        cout << endl;
+    }
+};
